@@ -20,7 +20,7 @@ export default function Home() {
       // Start panel movement immediately (same time as fade out)
       setPanelPosition(isLogin ? 'signup' : 'login');
       
-      // Clear any existing timeout
+      
       if (timeoutRef.current) {
         clearTimeout(timeoutRef.current);
       }
